@@ -9,6 +9,9 @@ set rtp+=~/.fzf
 
 filetype plugin indent on
 syntax on
+
+let g:ale_completion_enabled = 1 " Enable completion where available.
+
 execute pathogen#infect()
 
 nnoremap <silent> [oh :call gruvbox#hls_show()<CR>
@@ -66,4 +69,3 @@ set wrap                " Wrap lines
  map <leader>sp [s
  map <leader>sa zg
  map <leader>s? z=
-
