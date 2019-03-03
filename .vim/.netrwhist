@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/puya/Projects/anydsl/stincilla'
 let g:netrw_dirhist_2='/home/puya/Projects/anydsl/stincilla/apps'
 let g:netrw_dirhist_3='/home/puya/Projects/anydsl/stincilla/apps/filter_chain'
