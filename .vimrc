@@ -6,7 +6,7 @@ if filereadable(".project.vim")
 endif
 
 set rtp+=~/.fzf
-
+set tags=./tags;
 filetype plugin indent on
 syntax on
 

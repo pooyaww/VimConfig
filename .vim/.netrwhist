@@ -1,10 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/puya/Projects/anydsl/stincilla'
-let g:netrw_dirhist_2='/home/puya/Projects/anydsl/stincilla/apps'
-let g:netrw_dirhist_3='/home/puya/Projects/anydsl/stincilla/apps/filter_chain'
-let g:netrw_dirhist_4='/home/puya/Projects/anydsl/thorin/src/thorin/be'
-let g:netrw_dirhist_5='/home/puya/Projects/anydsl'
-let g:netrw_dirhist_6='/home/puya/Projects/anydsl/half'
-let g:netrw_dirhist_7='/home/puya/.vim/bundle/gruvbox'
-let g:netrw_dirhist_8='/home/puya/.vim/bundle/gruvbox/colors'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/home/puya/Projects/thorin/src/thorin'
+let g:netrw_dirhist_2='/home/puya/.vim/bundle/gruvbox/colors'
