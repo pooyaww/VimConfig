@@ -1,4 +1,2 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/puya/Projects/thorin/src/thorin'
-let g:netrw_dirhist_2='/home/puya/.vim/bundle/gruvbox/colors'
