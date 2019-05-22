@@ -78,4 +78,4 @@ nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
 setlocal cindent cino=j1,(0,ws,Ws
 
 " No indention for C++ namespace
-set cino=N-s   
+" set cino=N-s   
