@@ -70,3 +70,12 @@ set wrap                " Wrap lines
 
 "Remove all trailing whitespace by pressing F5
 nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
+
+" Ctag preview
+" nnoremap <C-]> <Esc>:exe "ptjump " . expand("<cword>")<Esc>
+
+" Fixing C++ lambda
+setlocal cindent cino=j1,(0,ws,Ws
+
+" No indention for C++ namespace
+set cino=N-s   
