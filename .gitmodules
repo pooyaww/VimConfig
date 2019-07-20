@@ -2,5 +2,5 @@
 	path = gruvbox
 	url = git@github.com:morhetz/gruvbox.git
 [submodule "vim-autotag"]
-	path = vim-autotag
+	path = ./.vim/bundle/vim-autotag
 	url = git@github.com:craigemery/vim-autotag.git
