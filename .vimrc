@@ -46,6 +46,7 @@ set undolevels=1000      " use many muchos levels of undo
 set wildignore=*.swp,*.bak,*.pyc,*.class
 set visualbell           " don't beep
 set noerrorbells         " don't beep
+set clipboard=unnamed    " Enabling clipboard between two instances of vim (gvim)
 let g:airline_powerline_fonts = 1 " usable only if powerline fonts are installed
 let g:indentLine_enabled = 0      " can be toggled by :IndentLinesToggle
 
