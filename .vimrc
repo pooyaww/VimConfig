@@ -68,6 +68,11 @@ set wrap                " Wrap lines
  map <leader>sp [s
  map <leader>sa zg
  map <leader>s? z=
+ " set underline for wrong spells
+ hi clear SpellBad
+ hi SpellBad cterm=underline
+" Set style for gVim
+ hi SpellBad gui=undercurl
 
 "Remove all trailing whitespace by pressing F5
 nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
