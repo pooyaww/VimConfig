@@ -85,3 +85,6 @@ setlocal cindent cino=j1,(0,ws,Ws
 
 " No indention for C++ namespace
 " set cino=N-s   
+
+" Markdown via grip and plugin, ctrl+p Enter
+ let vim_markdown_preview_github=1  
