@@ -87,4 +87,6 @@ setlocal cindent cino=j1,(0,ws,Ws
 " set cino=N-s   
 
 " Markdown via grip and plugin, ctrl+p Enter
- let vim_markdown_preview_github=1  
+ let vim_markdown_preview_github=1
+ " Native markdown syntax highlight fix
+ au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
