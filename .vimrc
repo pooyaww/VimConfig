@@ -24,6 +24,10 @@ let g:gruvbox_contrast_dark='medium'
 colorscheme gruvbox
 set background=dark
 
+" Required for ALE                                                                                                                                                                                                 
+set exrc                                                                                                                                                                                                           
+set secure
+
 set expandtab
 set autoindent
 set shiftround
