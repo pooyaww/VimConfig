@@ -27,6 +27,7 @@ set background=dark
 " Required for ALE                                                                                                                                                                                                 
 set exrc                                                                                                                                                                                                           
 set secure
+let g:ale_enabled = 0
 
 set expandtab
 set autoindent
